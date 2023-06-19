@@ -1,0 +1,50 @@
+detalhes_aiim:
+    css: null
+    xpath: '//table[2]//table//table//table//table//table'
+    # xpath: '/html/body/table[2]/tbody/tr/td[2]/table/tbody/tr/td[1]/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr/td[2]/table'
+    type: HTML
+    children:
+        #a_debug: # https://devhints.io/xpath#using-axes
+        #    css: null
+        #    xpath: '.'
+        #    type: HTML
+        aiim:
+            css: null
+            xpath: './/tr[2]/td[1]//strong'
+            type: Text
+        tributo:
+            css: null
+            xpath: './/tr[3]/td[2]/strong'
+            type: Text
+        gdoc:
+            css: null
+            xpath: './/tr[4]/td[2]/strong'
+            type: Text
+        data_lavratura:
+            css: null
+            xpath: './/tr[5]/td[2]/strong'
+            type: Text
+        tipo_notificacao:
+            css: null
+            xpath: './/tr[6]/td[2]/strong'
+            type: Text
+        data_notificacao:
+            css: null
+            xpath: './/tr[7]/td[2]/strong'
+            type: Text
+        valor_imposto:
+            css: null
+            xpath: './/tr[8]/td[2]/strong'
+            type: Text
+        valor_juros:
+            css: null
+            xpath: './/tr[9]/td[2]/strong'
+            type: Text
+        valor_multa:
+            css: null
+            xpath: './/tr[10]/td[2]/strong'
+            type: Text
+        valor_total:
+            css: null
+            xpath: './/tr[11]/td[2]/strong'
+            type: Text

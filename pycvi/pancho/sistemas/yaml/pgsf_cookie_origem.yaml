@@ -1,0 +1,15 @@
+origem_id:
+    css: null
+    xpath: '//*[@id="idOrigem"]/option'
+    multiple: true
+    type: Text
+    children:
+        id_origem:
+            css: null
+            xpath: '.'
+            type: Attribute
+            attribute: value
+        descricao:
+            css: null
+            xpath: '.'
+            type: Text

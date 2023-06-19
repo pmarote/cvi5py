@@ -1,0 +1,602 @@
+cabecalho:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlCabecalhoImprimir"]'
+    type: Text
+    children:
+        IE:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlCabecalhoImprimir"]//tr[2]/td[2]'
+            type: Text
+        situacao:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlCabecalhoImprimir"]//tr[2]/td[3]'
+            type: Text
+        CNPJ:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlCabecalhoImprimir"]//tr[3]/td[2]'
+            type: Text
+        data_inscricao_estado:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlCabecalhoImprimir"]//tr[3]/td[3]'
+            type: Text
+        nome_empresarial:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlCabecalhoImprimir"]//tr[4]/td[2]'
+            type: Text
+        regime_estadual:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlCabecalhoImprimir"]//tr[4]/td[3]'
+            type: Text
+        regime_rfb:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlCabecalhoImprimir"]//tr[5]/td[3]'
+            type: Text
+empresa_geral:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr'
+    type: Text
+    children:
+        nome_empresarial:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr//tr[2]/td[2]'
+            type: Text
+        natureza_juridica:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr//tr[3]/td[2]'
+            type: Text
+        data_inicio:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr//tr[4]/td[2]'
+            type: Text
+        cnpj_matriz:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr//tr[5]/td[2]'
+            type: Text
+        porte:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr//tr[7]/td[2]'
+            type: Text
+        capital_social:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr//tr[8]/td[2]'
+            type: Text
+        regime_estadual:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr//tr[9]/td[2]'
+            #multiple: true
+            type: Text
+        data_inicio_regime:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr//tr[9]/td[4]'
+            #multiple: true
+            type: Text
+        regime_especial_ie_unica:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr//tr[11]/td[2]'
+            #multiple: true
+            type: Text
+        regime_especial_ie_unica_por_municipio:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaGeral"]//tr[2]//tr//tr[11]/td[4]'
+            #multiple: true
+            type: Text
+participantes:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaParticipantes"]'
+    type: Text
+    children:
+        CPF_CNPJ:
+            css: null
+            multiple: true
+            #xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaParticipantes"]//tr[2]/td/table[1]//tr/td[1]'
+            xpath: '//table[contains(@id,"dlEmpresaParticipantes")]//tr[position()>1]/td/table[1]/tr/td[1][@class="dadoDetalhe"]'
+            type: Text
+        nome:
+            css: null
+            multiple: true
+            #xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaParticipantes"]//tr[2]/td/table[1]//tr/td[2]'
+            xpath: '//table[contains(@id,"dlEmpresaParticipantes")]//tr[position()>1]/td/table[1]/tr/td[2][@class="dadoDetalhe"][@style="width: 30%;"]'
+            type: Text
+        qualificacao:
+            css: null
+            multiple: true
+            #xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaParticipantes"]//tr[2]/td/table[1]//tr/td[3]'
+            xpath: '//table[contains(@id,"dlEmpresaParticipantes")]//tr[position()>1]/td/table[1]/tr/td[3][@class="dadoDetalhe"]'
+            type: Text
+        participacao_capital_social:
+            css: null
+            multiple: true
+            #xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaParticipantes"]//tr[2]/td/table[1]//tr/td[4]'
+            xpath: '//table[contains(@id,"dlEmpresaParticipantes")]//tr[position()>1]/td/table[1]/tr/td[4][@class="dadoDetalhe"][@style="width: 20%;"]'
+            type: Text
+        data_entrada:
+            css: null
+            multiple: true
+            #xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaParticipantes"]//tr[2]/td/table[1]//tr/td[5]'
+            xpath: '//table[contains(@id,"dlEmpresaParticipantes")]//tr[position()>1]/td/table[1]/tr/td[5][@class="dadoDetalhe"]'
+            type: Text
+        endereco_participante:
+            css: null
+            multiple: true
+            #xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEmpresaParticipantes"]//tr[2]/td/table[1]//tr/td[5]'
+            xpath: '//table[contains(@id,"dlParticipanteDadosAdicionais_ctl00_dlEmpresaParticipanteEndereco")]//tr[position()>1]/td/table[1]'
+            type: Text
+estabelecimento_geral:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoGeral"]'
+    type: Text
+    children:
+        nome_fantasia:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[2]/td[2]'
+            type: Text
+        CNPJ:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[3]/td[2]'
+            type: Text
+        data_inscricao_estado:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[3]/td[4]'
+            type: Text
+        IE:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[4]/td[2]'
+            type: Text
+        data_inicio_IE:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[4]/td[4]'
+            type: Text
+        NIRE:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[5]/td[2]'
+            type: Text
+        situacao_cadastral:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[7]/td[2]'
+            type: Text
+        data_inicio_situacao_cadastral:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[7]/td[4]'
+            type: Text
+        ocorrencia_fiscal:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[8]/td[2]'
+            type: Text
+        tipo_unidade:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[10]/td[2]'
+            type: Text
+        formas_atuacao:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoGeral")]//tr[2]/td/table//tr[10]/td[4]'
+            type: Text
+tributario:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoTributario"]'
+    type: Text
+    children:
+        substituto_tributario:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoTributario")]//tr[2]/td/table//tr[2]/td[2]'
+            type: Text
+        data_substituto_tributario_desde:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoTributario")]//tr[2]/td/table//tr[2]/td[4]'
+            type: Text
+        CPR:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoTributario")]//tr[2]/td/table//tr[3]/td[2]'
+            type: Text
+        data_inicio_CPR:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoTributario")]//tr[2]/td/table//tr[3]/td[4]'
+            type: Text
+        CPR_ST:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoTributario")]//tr[2]/td/table//tr[4]/td[2]'
+            type: Text
+        CNAE_principal:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoTributario")]//tr[2]/td/table//tr[6]/td[2]'
+            type: Text
+        data_CNAE_principal:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoTributario")]//tr[2]/td/table//tr[6]/td[4]'
+            type: Text
+        CNAEs_secundarios:
+            css: null
+            multiple: true
+            xpath: '//table[contains(@id,"dlEstabelecimentoCnaeSecundario")]'
+            type: Text
+        DRT:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoTributario")]//tr[2]/td/table//tr[9]/td[2]'
+            type: Text
+        posto_fiscal:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoTributario")]//tr[2]/td/table//tr[9]/td[4]'
+            type: Text
+contabilista:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista"]'
+    type: Text
+    children:
+        CRC:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilista")]//tr[2]/td/table[2]//tr[2]/td[2]'
+            type: Text
+        CPF_CNPJ_contabilista:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilista")]//tr[2]/td/table[2]//tr[2]/td[4]'
+            type: Text
+        nome:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilista")]//tr[2]/td/table[2]//tr[3]/td[2]'
+            type: Text
+        data_inicio_contabilista_no_estabelecimento:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilista")]//tr[2]/td/table[2]//tr[4]/td[2]'
+            type: Text
+        situacao_cadastral_contabilista:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaDadosAdicionais")]//tr/td/table//tr/td[2]'
+            type: Text
+contabilista_endereco:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEndereco"]'
+    type: Text
+    children:
+        tipo_endereco:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[2]/td[2]'
+            type: Text
+        logradouro:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[4]/td[2]'
+            type: Text
+        num_endereco:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[5]/td[2]'
+            type: Text
+        complemento:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[5]/td[4]'
+            type: Text
+        cep:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[6]/td[2]'
+            type: Text
+        bairro:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[6]/td[4]'
+            type: Text
+        municipio:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[7]/td[2]'
+            type: Text
+        UF:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[7]/td[4]'
+            type: Text
+        telefone:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[9]/td[2]'
+            type: Text
+        fax:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[9]/td[4]'
+            type: Text
+        email:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoContabilistaEndereco")]//tr/td/table[2]//tr[10]/td[2]'
+            type: Text
+contabilista_endereco_nao_preferencial:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]'
+    type: Text
+    children:
+        tipo_endereco:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[2]/td[2]'
+            type: Text
+        logradouro:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[4]/td[2]'
+            type: Text
+        num_endereco:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[5]/td[2]'
+            type: Text
+        complemento:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[5]/td[4]'
+            type: Text
+        cep:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[6]/td[2]'
+            type: Text
+        bairro:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[6]/td[4]'
+            type: Text
+        municipio:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[7]/td[2]'
+            type: Text
+        UF:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[7]/td[4]'
+            type: Text
+        telefone:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[9]/td[2]'
+            type: Text
+        fax:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[9]/td[4]'
+            type: Text
+        email:
+            css: null
+            xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoContabilista_ctl01_dlEstabelecimentoContabilistaEnderecoNaoPreferencial"]//tr/td/table[2]//tr[10]/td[2]'
+            type: Text
+estabelecimento_endereco:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoEnderecoContato"]//table[1]//tr[2]//td[contains(concat(" ",normalize-space(@class)," ")," dadoDetalhe ")]'
+    type: Text
+    children:
+        logradouro:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[1]//tr[2]/td[2]'
+            type: Text
+        num_endereco:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[1]//tr[3]/td[2]'
+            type: Text
+        complemento:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[1]//tr[3]/td[4]'
+            type: Text
+        cep:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[1]//tr[4]/td[2]'
+            type: Text
+        bairro:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[1]//tr[4]/td[4]'
+            type: Text
+        municipio:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[1]//tr[5]/td[2]'
+            type: Text
+        UF:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[1]//tr[5]/td[4]'
+            type: Text
+        referencia:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[1]//tr[6]/td[2]'
+            type: Text
+        data_inicio_endereco:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[1]//tr[7]/td[2]'
+            type: Text
+estabelecimento_contato:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoEnderecoContato"]'
+    type: Text
+    children:
+        telefone_1:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[3]//tr[2]/td[2]'
+            type: Text
+        telefone_2:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[3]//tr[2]/td[4]'
+            type: Text
+        fax:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[3]//tr[3]/td[2]'
+            type: Text
+        email:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoContato")]//tr[2]/td/table[3]//tr[3]/td[4]'
+            type: Text
+estabelecimento_endereco_correspondencia:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlEstabelecimentoEnderecoCorrespondencia"]'
+    type: Text
+    children:
+        logradouro:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoCorrespondencia")]//tr[2]/td/table//tr[2]/td[2]'
+            type: Text
+        num_endereco:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoCorrespondencia")]//tr[2]/td/table//tr[3]/td[2]'
+            type: Text
+        complemento:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoCorrespondencia")]//tr[2]/td/table//tr[3]/td[4]'
+            type: Text
+        cep:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoCorrespondencia")]//tr[2]/td/table//tr[4]/td[2]'
+            type: Text
+        bairro:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoCorrespondencia")]//tr[2]/td/table//tr[4]/td[4]'
+            type: Text
+        munipio:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoCorrespondencia")]//tr[2]/td/table//tr[5]/td[2]'
+            type: Text
+        UF:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoCorrespondencia")]//tr[2]/td/table//tr[5]/td[4]'
+            type: Text
+        referencia:
+            css: null
+            xpath: '//table[contains(@id,"dlEstabelecimentoEnderecoCorrespondencia")]//tr[2]/td/table//tr[6]/td[2]'
+            type: Text
+historico_regime_estadual:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlHistoricoRegimeApuracao"]'
+    type: Text
+    children:
+        # pouco usado, trazendo informações em um unico campo
+        referencia:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoRegimeApuracao")]//tr[2]/td/table//tr'
+            multiple: true
+            type: Text
+historico_participantes:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlHistoricoParticipantes"]'
+    type: Text
+    children:
+        datas_inicio:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoParticipantes")]//tr[position()>1]/td/table[1]/tr/td[1][@class="dadoDetalhe"]'
+            multiple: true
+            type: Text
+        datas_fim:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoParticipantes")]//tr[position()>1]/td/table[1]/tr/td[2][@class="dadoDetalhe"]'
+            multiple: true
+            type: Text
+        CPFs_CNPJs:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoParticipantes")]//tr[position()>1]/td/table[1]/tr/td[3][@class="dadoDetalhe"]'
+            multiple: true
+            type: Text
+        nomes:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoParticipantes")]//tr[position()>1]/td/table[1]/tr/td[4][@class="dadoDetalhe"]'
+            multiple: true
+            type: Text
+        qualificacoes:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoParticipantes")]//tr[position()>1]/td/table[1]/tr/td[5][@class="dadoDetalhe"]'
+            multiple: true
+            type: Text
+        origem_inclusao_informacao:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoParticipantes")]//tr[position()>1]/td/table[1]/tr/td[6][@class="dadoDetalhe"]'
+            multiple: true
+            type: Text
+        data_alteracao_informacao:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoParticipantes")]//tr[position()>1]/td/table[1]/tr/td[7][@class="dadoDetalhe"]'
+            multiple: true
+            type: Text
+        enderecos_participantes:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoParticipanteDadosAdicionais_ctl00_dlParticipanteEndereco")]//tr/td/table[2]'
+            multiple: true
+            type: Text
+historico_ie_anterior:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlHistoricoInscricaoEstadualAnterior"]'
+    type: Text
+    children:
+        # pouco usado, trazendo informações em um unico campo
+        referencia:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoInscricaoEstadualAnterior")]//tr[2]/td/table//tr'
+            multiple: true
+            type: Text
+historico_situacao_cadastral:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlHistoricoSituacaoCadastral"]'
+    type: Text
+    children:
+        # pouco usado, trazendo informações em um unico campo
+        referencia:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoSituacaoCadastral")]//tr[2]/td/table//tr'
+            multiple: true
+            type: Text
+historico_substituicao_tributaria:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlHistoricoSubstitutoTributario"]'
+    type: Text
+    children:
+        # pouco usado, trazendo informações em um unico campo
+        referencia:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoSubstitutoTributario")]//tr[2]/td/table//tr'
+            multiple: true
+            type: Text
+historico_cpr:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlHistoricoCpr"]'
+    type: Text
+    children:
+        # pouco usado, trazendo informações em um unico campo
+        referencia:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoCpr")]//tr[2]/td/table//tr'
+            multiple: true
+            type: Text
+historico_cnae_principal:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlHistoricoCnaePrincipal"]'
+    type: Text
+    children:
+        # pouco usado, trazendo informações em um unico campo
+        referencia:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoCnaePrincipal")]//tr[2]/td/table//tr'
+            multiple: true
+            type: Text
+historico_cnae_secundario:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlHistoricoCnaeSecundario"]'
+    type: Text
+    children:
+        # pouco usado, trazendo informações em um unico campo
+        referencia:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoCnaeSecundario")]//tr[2]/td/table//tr'
+            multiple: true
+            type: Text
+historico_contabilista:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlHistoricoContabilista"]'
+    type: Text
+    children:
+        # pouco usado, trazendo informações em um unico campo
+        referencia:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoContabilista")]//tr[2]/td/table//tr'
+            multiple: true
+            type: Text
+historico_enderecos_estabelecimento:
+    css: null
+    xpath: '//table[@id="ctl00_conteudoPaginaPlaceHolder_dlHistoricoEnderecoEstabelecimento"]'
+    type: Text
+    children:
+        datas_inicio:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoEnderecoEstabelecimento")]//tr[position()>1]/td/table[1]//tr/td[1]'
+            multiple: true
+            type: Text
+        datas_fim:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoEnderecoEstabelecimento")]//tr[position()>1]/td/table[1]//tr/td[2]'
+            multiple: true
+            type: Text
+        enderecos:
+            css: null
+            xpath: '//table[contains(@id,"dlHistoricoEnderecoEstabelecimento_ctl01_dlHistEndereco")]//tr'
+            multiple: true
+            type: Text
+
+#exemplo_xpath:
+#    xpath: '//form/table[3]/tbody/tr/td[2]/table[2]/tbody/tr[3]/td/div/table/tbody/tr[1]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[5]/td[2]'
+#    children:
+        #aaa_debug:
+        #    css: null
+        #    xpath: '.'
+        #    type: Text
+

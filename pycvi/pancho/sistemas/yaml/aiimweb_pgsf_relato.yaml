@@ -1,0 +1,16 @@
+relato:
+    css: null
+    xpath: '//table[2]//table//table//table//table//td[@class = "texto9" and @width = "95%"]/div[@align = "justify"]'
+    # xpath: '/html/body/table[2]/tbody/tr/td[2]/table/tbody/tr/td[1]/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table'
+    multiple: true
+    type: HTML
+    children:
+        #a_debug: # https://devhints.io/xpath#using-axes
+        #    css: null
+        #    xpath: '.'
+        #    type: HTML
+        descricao_infringencia_capitulacao:
+            css: null
+            xpath: '.'
+            #xpath: './/td[(@class = "texto9" and @width = "95%") and not(@valign="top")]/div[@align = "justify"]'
+            type: Text
